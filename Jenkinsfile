@@ -1,21 +1,10 @@
 pipeline {
     agent any
-
-    stages {
-        stage('Oryan') {
+    stages { 
+        stage('oryan') {
             steps {
-                echo 'Building..'
+                echo 'Hello World'
             }
-        }
-        stage('Is') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('CI') {
-            steps {
-                echo 'Deploying....'
-            
         }
     }
 }
